@@ -7,7 +7,7 @@ import { useRouter } from 'next/router';
 
 import { Layout } from '@src/components/templates/layout';
 
-const urbanist = Urbanist({ subsets: ['latin'], variable: '--font-urbanist' });
+const urbanist = Urbanist({ subsets: ['latin'], variable: '--font-rosario' });
 
 const App = ({ Component, pageProps }: AppProps) => {
   const { locale } = useRouter();
