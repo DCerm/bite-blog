@@ -6,11 +6,4 @@
 <circle r="2" cx="78.2" cy="14.8" className="black"></circle><ellipse cx="77.8" cy="14.4" rx="1" ry="1" className="white"></ellipse><ellipse cx="78.2" cy="14.8" rx="1.2" ry="1.4" className="black"></ellipse><line x1="82" y1="22" x2="78" y2="24" s></line>
 <circle r="2" cx="78.2" cy="23.8" className="black"></circle><ellipse cx="77.8" cy="23.6" rx="1" ry="1" className="white"></ellipse><ellipse cx="78.2" cy="24" rx="1.2" ry="1.4" className="black"></ellipse><line x1="87" y1="25" x2="88" y2="28" ></line>
 <circle r="2" cx="88" cy="28.2" className="black"></circle><ellipse cx="87.8" cy="28" rx="1" ry="1" className="white"></ellipse><ellipse cx="88.2" cy="28.4" rx="1.2" ry="1.4" className="black"></ellipse>
-<animateTransform id="op"
-      attributeName="transform"
-      begin="2s;op.end+5s"
-      dur="1s"
-      type="rotate"
-      from="0 86 20"
-      to="360 86 20"
- /></g></svg>
+</g></svg>
