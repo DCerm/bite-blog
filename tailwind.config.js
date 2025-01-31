@@ -16,6 +16,9 @@ module.exports = {
   theme: {
     colors,
     extend: {
+      letterSpacing: {
+        snug: '-0.011em',
+      },
       backgroundImage: {
         'home-hero' : 'linear-gradient(180deg, #00000055, #255c9955), url("https://res.cloudinary.com/dzfqshhzu/image/upload/v1737663340/heroBg_jlmxlp.jpg")',
       },
@@ -53,7 +56,7 @@ module.exports = {
       },
       lineHeight: {
         '6vw' : '6vw',
-        'leading-tighter' : '0.012rem', 
+        tighter: 1.1,
       },
       textColor: {
         'green' : '#068D9D',
