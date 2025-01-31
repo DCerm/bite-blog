@@ -23,14 +23,14 @@ function Toggle ({q, a}) {
 	
 	return (
 		<>
-			<div className='border-blue border-b-2 py-5' onClick={Open}>
+			<button className='border-blue border-b-2 py-5' onClick={Open}>
 				<div className='flex gap-5 justify-between'>
 					<h4 className='font-normal text-25px lg:text-30px'>{q}</h4>
 					<button className='border-0 ' onClick={Open}> { isOpen ? <PlusIcon height={40} /> : <MinusIcon height={40} /> } </button>
 				</div>
 
 				<p className={ `${isOpen ? "block" : "hidden" }  text-xl py-2.5` }> {a} </p>
-			</div>
+			</button>
 		</>
 	)
 }
@@ -139,7 +139,7 @@ function Locations() {
           </div>
 
           <div className="lg:w-3/5 flex lg:justify-end">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1982.475543411577!2d5.598811142967041!3d6.400304444594233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10472d10711eacf5%3A0xba82c49f07476599!2sUselu!5e0!3m2!1sen!2sng!4v1737642464968!5m2!1sen!2sng" width={600} height={450} style={{border:"0"}} loading="lazy" className='rounded-xl md:w-full'></iframe>
+            <iframe title="" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1982.475543411577!2d5.598811142967041!3d6.400304444594233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10472d10711eacf5%3A0xba82c49f07476599!2sUselu!5e0!3m2!1sen!2sng!4v1737642464968!5m2!1sen!2sng" width={600} height={450} style={{border:"0"}} loading="lazy" className='rounded-xl md:w-full'></iframe>
           </div>
         </section>
 
