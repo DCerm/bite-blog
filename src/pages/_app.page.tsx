@@ -1,13 +1,13 @@
 import { ContentfulLivePreviewProvider } from '@contentful/live-preview/react';
 import { appWithTranslation } from 'next-i18next';
 import type { AppProps } from 'next/app';
-import { Urbanist } from 'next/font/google';
+import { Rosario } from 'next/font/google';
 import './utils/globals.css';
 import { useRouter } from 'next/router';
 
 import { Layout } from '@src/components/templates/layout';
 
-const urbanist = Urbanist({ subsets: ['latin'], variable: '--font-rosario' });
+const urbanist = Rosario({ subsets: ['latin'], variable: '--font-rosario' });
 
 const App = ({ Component, pageProps }: AppProps) => {
   const { locale } = useRouter();
