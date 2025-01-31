@@ -58,8 +58,7 @@ module.exports = {
         'green' : '#068D9D',
         'blue' : '#255C99',
         'grey' : '#eeeeee99',
-
-      }
+      },
       lineHeight: {
         tighter: 1.1,
       },
