@@ -16,7 +16,7 @@ const Page = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
   const { t } = useTranslation();
 
   const page = useContentfulLiveUpdates(props.page);
-  const posts = useContentfulLiveUpdates(props.posts{'metadata.tags.sys.id[in]': 'seo'});
+  const posts = useContentfulLiveUpdates(props.posts);
 
   if (!page?.featuredBlogPost || !posts) return;
 
