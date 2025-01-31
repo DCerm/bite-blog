@@ -53,7 +53,6 @@ module.exports = {
       },
       lineHeight: {
         '6vw' : '6vw',
-        'tighter': '1.1',
       },
       textColor: {
         'green' : '#068D9D',
