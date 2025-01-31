@@ -57,8 +57,9 @@ export const getStaticProps: GetStaticProps = async ({ locale, draftMode: previe
       where: {
         slug_not: page?.featuredBlogPost?.slug,
         contentfulMetadata: {
-        tags: {
-          id_contains_some: ["yourTagId"],
+          tags: {
+            id_contains_some: ["yourTagId"],
+          },
         },
       },
       preview,
