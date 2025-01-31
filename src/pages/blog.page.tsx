@@ -16,8 +16,7 @@ const Page = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
   const { t } = useTranslation();
 
   const page = useContentfulLiveUpdates(props.page);
-  const posts = useContentfulLiveUpdates(props.posts);
-  const seoposts = posts{'metadata.tags.sys.id[in]': 'seo'}
+  const posts = useContentfulLiveUpdates(props.posts{'metadata.tags.sys.id[in]': 'seo'});
 
   if (!page?.featuredBlogPost || !posts) return;
 
@@ -38,7 +37,7 @@ const Page = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
 
       <Container className="my-8  md:mb-10 lg:mb-16">
         <h2 className="mb-4 md:mb-6">{t('landingPage.latestArticles')}</h2>
-        <ArticleTileGrid className="md:grid-cols-2 lg:grid-cols-3" articles={seoposts} />
+        <ArticleTileGrid className="md:grid-cols-2 lg:grid-cols-3" articles={posts} />
       </Container>
     </>
   );
