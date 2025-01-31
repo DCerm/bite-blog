@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { Tag, Toggle, Testimonials, LeftImageSection, RightImageSection } from './modules.tsx';
-import { Button, BigButton } from "./buttons.tsx";
+import { Tag, Toggle, Testimonials, LeftImageSection, RightImageSection } from './modules';
+import { Button, BigButton } from "./buttons";
 import { MdOutlineAlarm, MdOutlineStar, MdOutlineWorkspacePremium } from 'react-icons/md';
 import { FaHeart, FaUserNurse } from "react-icons/fa";
 
