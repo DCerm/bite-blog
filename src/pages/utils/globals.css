@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
+/*@layer base {
   body {
     @apply text-sm text-gray800 md:text-sm bg-gray100;
   }
@@ -30,5 +30,5 @@
   p {
     @apply text-gray600 tracking-snug font-normal leading-snug md:leading-normal;
   }
-}
+}*/
 
