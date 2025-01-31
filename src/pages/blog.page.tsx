@@ -55,10 +55,10 @@ export const getStaticProps: GetStaticProps = async ({ locale, draftMode: previe
       locale,
       order: PageBlogPostOrder.PublishedDateDesc,
       where: {
-        slug_not: page?.featuredBlogPost?.slug,
+        /*slug_not: page?.featuredBlogPost?.slug,*/
         contentfulMetadata: {
           tags: {
-            id_contains_some: ["yourTagId"],
+            id_contains_some: ["seo"],
           },
         },
       },
