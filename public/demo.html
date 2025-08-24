@@ -1,0 +1,240 @@
+<section className='topSection flex flex-col justify-between bg-may text-white min-h-screen'>
+                <div className="pt-[5vh]">
+                    <h1 className="text-[11.7vw] md:text-txl lg:text-dxl neue text-white font-light transition duration-300 ease-in-out leading-none">{heading}</h1>
+                    <h2 className='text-xl md:text-25px lg:text-30px  my-5 transition duration-300 ease-in-out'>{subheading}</h2>
+                </div>
+
+                <div className='grid grid-cols-2 md:grid-cols-3 lg:flex items-en gap-2 lg:gap-5 mt-8 '>
+                    <Link href="non-profits" className='h-full lg:w-1/5'
+                        onMouseEnter={() => {setHeading("Save every penny for your cause")
+                        setSubheading("Do more good with every donation. Cut recurring fees on donation plugins and website hosting.")}
+                        }
+                        onMouseLeave={() => {setHeading(defheading)
+                        setSubheading(defsubheading)}}
+                    >
+                        <div className='flex flex-col gap-[1vh] md:gap-[3vh] justify-between bg-greener p-4 rounded-md useCaseCard'>
+                        <h2 className="font-bold text-xl md:text-30px">
+                            Non-Profits <br/> <span className='hidden md:block md:invisible'>Profits</span>
+                        </h2>
+
+                        <p className='text-base md:text-lg font-bold'>Learn More</p>
+                        </div>
+                    </Link>
+
+                    <Link href="/start-ups" className=' h-full lg:w-1/5'
+                        onMouseEnter={() => {setHeading("Build with less recurring costs.")
+                        setSubheading("Get a stunning, high-performance site that helps you pitch, validate, and grow.")}
+                        }
+                        onMouseLeave={() => {setHeading(defheading)
+                        setSubheading(defsubheading)}}
+                    >
+                        <div className='flex flex-col gap-[1vh] md:gap-[3vh] justify-between bg-greener p-4 rounded-md useCaseCard'>
+                        <h2 className="font-bold text-xl md:text-30px">
+                            Start Ups<br/><span className='hidden md:block md:invisible'> Ups</span>
+                        </h2>
+
+                        <p className='text-base md:text-lg font-bold'>Learn More</p>
+                        </div>
+                    </Link>
+
+                    <Link href="/small-businesses" className='h-full lg:w-1/5'
+                        onMouseEnter={() => {setHeading("More profits, less cost")
+                        setSubheading("Keep more profits for your business. Skip hosting fees and plugin subscriptions till you're ready to scale.")}
+                        }
+                        onMouseLeave={() => {setHeading(defheading)
+                        setSubheading(defsubheading)}}
+                    >
+                        <div className='flex flex-col gap-[1vh] md:gap-[3vh] justify-between bg-greener p-4 rounded-md useCaseCard'>
+                        <h2 className="font-bold text-xl md:text-30px">
+                            Small <br/> Businesses
+                        </h2>
+
+                        <p className='text-base md:text-lg font-bold'>Learn More</p>
+                        </div>
+                    </Link>
+
+                    <Link href="professional-portfolios" className='h-full lg:w-1/5'
+                        onMouseEnter={() => {setHeading("Show Off Your Work Anytime")
+                        setSubheading("Keep your brand / career portfolio running with no recurring costs.")}
+                        }
+                        onMouseLeave={() => {setHeading(defheading)
+                        setSubheading(defsubheading)}}
+                    >
+                        <div className='flex flex-col gap-[1vh] md:gap-[3vh] justify-between bg-greener p-4 rounded-md useCaseCard'>
+                        <h2 className="font-bold text-xl md:text-30px">
+                            Professional <br/> Portfolios
+                        </h2>
+
+                        <p className='text-base md:text-lg font-bold'>Learn More</p>
+                        </div>
+                    </Link>
+
+                    <Link href="bloggers" className='h-full lg:w-1/5 col-span-2 md:col-span-1'
+                        onMouseEnter={() => {setHeading("Easy to use CMS. Scales with zero lag")
+                        setSubheading("Write, edit and publish content with a very simple interface. Zero lag even with 1000s of blog posts.")}
+                        }
+                        onMouseLeave={() => {setHeading(defheading)
+                        setSubheading(defsubheading)}}
+                    >
+                        <div className='flex md:flex-col gap-[1vh] md:gap-[3vh] justify-between bg-greener p-4 rounded-md useCaseCard'>
+                        <h2 className="font-bold text-xl md:text-30px">
+                            Bloggers<br/><span className='hidden md:block md:invisible'>gers</span>
+                        </h2>
+
+                        <p className='text-base md:text-lg font-bold'>Learn More</p>
+                        </div>
+                    </Link>
+                </div>
+            </section>
+
+            {/**THE SWEP EDGE   THE SWEP EDGE         THE SWEP EDGE           THE SWEP EDGE */}
+            <section className=' bg-gray-300 bg-dropdown hidden text-black lg:pt-[200px]'>
+                <div className="flex md:flex-row md:items-center gap-5 lg:gap-0 lg:px-5p">
+                <div className='w-1/6'>
+                    <h2 className="vtx text-xl lg:text-[58px] leading-none">The-S<span className="text-green">we</span>P
+                    <br className='hidden md:block'/><span className='text-xl md:text-[35px] lg:text-[100px] uppercase'> Edge</span></h2>
+                </div>
+
+                <div className='w-5/ md:w-4/6 flex flex-col lg:gap-3'>
+                    <H2 className="lg:!text-2xl" 
+                        text="No databases, no expensive data queries" 
+                    />
+                    <p className="mt-4 text-lg lg:pr-10p">Built on Jamstack, every page is pre-rendered and globally cached, making your site instantly
+                        available; without repeat data fetch from a database.
+                    </p>
+                    <p className='border-b border-may md:w-1/2 mt-4 hidden md:block'></p>
+                    <Link href="/demo" className='mt-4 md:hidden border border-may hover:bg-green flex items-center justify-between gap-8 p-4 rounded-lg'>
+                        <p className="neue text-xl lg:text-30px uppercase">View Demo</p>
+                        <MdCircle className='text-xl lg:text-[50px] text-gree' />
+                    </Link>
+                </div>
+
+                <div className='hidden md:block md:w-1/6 flex lg:justify-end'>
+                    <Link href="/demo" className='w-1/2 border border-may hover:bg-green vtx flex items-center justify-between gap-8 p-4 lg:py-8 rounded-lg rotate-90 md:rotate-0'>
+                        <p className="neue text-xl lg:text-30px uppercase">View Demo</p>
+                        <MdCircle className='text-xl lg:text-[50px] text-gree' />
+                    </Link>
+                </div>
+                </div>
+            </section>
+
+            {/**NO DATABASES      NO DATABASES          NO DATABASES           NO DATABASES */}
+            <section className="bg-gray-300 bg-dropdown text-black ">
+
+                <div className="flex flex-col-reverse md:flex-row lg:mt-12 gap-1 items-start md:items-center justify-between md:px-10p">
+                    <div className="borde border-may rounded-lg md:w-2/5 ">
+                        <H4 className="font-light" 
+                            text="Save big on Web Hosting" 
+                        />
+                        <p className='text-lg mt-4'>Built on Jamstack, every page is pre-rendered and cached on global CDNs, making your site instantly
+                            available without repeat data fetch from a database. This cuts usage of hosting and compute resources significantly.
+                        </p>
+                    </div>
+
+                    <div className=' bg-dropdown p-6 md:w-1/2 rounded-full lg:rounded-3xl  '>
+                        <Image alt="" width={826} height={551} className="rounded-3xl hidden md:block "
+                            src="https://res.cloudinary.com/diyynpqmt/image/upload/v1753561439/server-racks-computer-network-security-server-room-data-center-dark-blue-generative-ai_1258-150857_krizrl.jpg"
+                        />
+                    </div>
+                </div>
+
+                <div className="flex flex-col md:flex-row items-start md:items-center justify-between md:px-10p mt-12 gap-1 lg:gap-3">
+                    <div className='bg-dropdown p-6  md:w-1/2 rounded-full lg:rounded-3xl'>
+                        <Image alt="" width={826} height={551} className="rounded-3xl hidden md:block"
+                            src="https://res.cloudinary.com/diyynpqmt/image/upload/v1753562062/global-connections-background-social-media-banner_53876-108500_aawwnc.jpg"
+                        />
+                    </div>
+
+                    <div className=" rounded-lg md:w-2/5">
+                        <H4 className="font-bold" 
+                            text="Use our cloud servers or bring yours at scale" 
+                        />
+                        <p className='text-lg mt-4'>Built on industry standard Cloud services to ensure stability and faster time to market.
+                            Migrate to paid hosting or deploy to any modern cloud platform of your choice at scale.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            {/**USER CENTERED DESIGN          USER CENTERED DESIGN        USER CENTERED DESIGN */}
+            <section className="bg-may text-white pb-10">
+                <Slide content={ <H2 className="md:text-center " text="User centered design built by real humans" />} />
+                <p className="mt-4 md:text-center text-lg lg:text-xl md:px-20p">Your website deserves more than a generic template, or a few hours of drag and drop.
+                    Our in house designers and developers work with you to build a custom website that meets your needs.
+                </p> 
+            </section>
+            
+            <div className='bg-may px-2 '>
+            <Image src="https://res.cloudinary.com/diyynpqmt/image/upload/v1749396237/design1_ie4flf.webp" alt="Designs"
+                className="w-full h-auto rounded-3xl border-may"
+                width={1000}
+                height={500}
+            />
+            </div>
+            
+
+           {/**ONE SIMPLE INTERFACE        ONE SIMPLE INTERFACE         ONE SIMPLE INTERFACE.  */}
+
+            <section className='bg-may text-white pb-0 lg:pb-2'>
+                <div className="lg:px-20p pt-12 lg:pt-3">
+                    <Slide content={ <H2 className="md:text-center" text="One simple interface to manage everything" />} />
+                    <p className='md:text-center textlg lg:text-xl mt-4 '>Powerful doesn&apos;t mean complicated. Manage your website, content, analytics and form responses 
+                        from one easy-to-use dashboard.
+                    </p>
+                </div>
+            </section>
+            <div className='bg-may p-2 pt-0.5 lg:pt-2 pb-0'>
+                <video className="w-full h-auto rounded-lg shadow-lg mt-6 lg:mt-12 " autoPlay loop muted playsInline
+                    src="https://res.cloudinary.com/diyynpqmt/video/upload/v1753560386/swep-dashboard_e3tw9s.mov" 
+                />    
+            
+            </div>
+
+            {/**BATTLE TESTED SECURITY         BATTLE TESTED SECURITY          BATTLE TESTED SECURITY */}
+
+            <section className='bg-may md:flex text-white items-center'>
+                <div className="lg:w-2/5 lg:pl-5p flex flex-col items-center text-center md:text-left md:block">
+                    <Slide content={<H2 className="" text="Battle tested security powered by Auth0" />} />
+                    <p className='text-lg mt-4 lg:pr-20p'>Enterprise level security that protects your entire website from attackers.</p>
+                    <Button url="/waitlist" className="mt-5  " text="Get Started" />
+                </div>
+
+                <div className="lg:w-3/5 flex justify-end pt-6 md:pt-0">
+                    <svg strokeWidth={0.27}  fill="none" width={600} height={600} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" className="max-w-full h-auto">
+                        <defs>
+                            <linearGradient id="animatedGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" stop-color="#ff758c">
+                                <animate attributeName="stop-color"
+                                        values="#43cea2;185a9d;0072ff"
+                                        dur="4s"
+                                        repeatCount="indefinite" />
+                            </stop>
+                            <stop offset="100%" stop-color="#ff7eb3">
+                                <animate attributeName="stop-color"
+                                        values="f6d365;fda085;00c6ff"
+                                        dur="4s"
+                                        repeatCount="indefinite" />
+                            </stop>
+                            </linearGradient>
+                        </defs>
+                        <path d="M12 2 4 5v6.09c0 5.05 3.41 9.76 8 10.91 4.59-1.15 8-5.86 8-10.91V5l-8-3zm6z " stroke='#fff'/>
+                        <path d="M12 2 4 5v6.09c0 5.05 3.41 9.76 8 10.91 4.59-1.15 8-5.86 8-10.91V5l-8-3zm6z " stroke='url(#animatedGradient)' strokeDasharray={"5 50"} strokeDashoffset={0}>
+                            <animate attributeName="stroke-dashoffset" 
+                            from="0" to="100" dur="15s" 
+                            repeatCount="indefinite"/>
+                        </path>
+                    </svg>
+                </div>
+                
+            </section>
+
+            <section className='bg-dark text-white px-10p'>
+                <div className="lg:px-10p flex flex-col md:items-center ">
+                    <Slide content={<H2 className="md:text-center" text="One-time payment. Use free till your customer base demands more resources." />} />
+                    <p className='md:text-center text-lg mt-4 lg:px-10p'>Get your own custom made website with one free month of post launch support.
+                        Use with your own domain name or a free <span className='underline underline-offset-8 decoration-may'>.the-swep.org</span> domain.
+                    </p>
+                    <Button url="/waitlist" className=" mt-12" text="Get Started" />
+                </div>
+                
+            </section>
