@@ -1,8 +1,7 @@
 import Image from "next/image";
 import { Tag, Toggle, Testimonials, LeftImageSection, RightImageSection } from './modules';
 import { Button, BigButton } from "./buttons";
-import { MdOutlineAlarm, MdOutlineStar, MdOutlineWorkspacePremium } from 'react-icons/md';
-import { FaHeart, FaUserNurse } from "react-icons/fa";
+import { MdOutlineAlarm, MdOutlineStar } from 'react-icons/md';
 
 
 export default function Home() {
@@ -84,7 +83,6 @@ export default function Home() {
 
             <div className="flex gap-2.5 ">
               <div className=' w-1/2 lg:w-1/3 p-5 bg-light-blue rounded-2xl flex flex-col justify-between items-start'>
-                <MdOutlineWorkspacePremium className="text-[50px]" />
                 <div className="py-5" />
                 <p className="font-extrabold text-xl md:text-[25px] lg:text-25px leading-8">Certified Care Professionals</p>
               </div>
@@ -116,7 +114,6 @@ export default function Home() {
               </div>
 
               <div className='w-1/2  p-5 bg-blue rounded-2xl text-white flex flex-col justify-between items-start'>
-                <MdOutlineWorkspacePremium className="text-[50px]" />
                 <div className="py-5" />
                 <p className="font-extrabold text-xl md:text-[25px] lg:text-25px leading-8">Commitment to Excellence You Can Trust</p>
               </div>
