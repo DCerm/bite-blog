@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { Tag, Toggle, Testimonials, LeftImageSection, RightImageSection } from './modules';
 import { Button, BigButton } from "./buttons";
-import { MdOutlineAlarm, MdOutlineStar } from 'react-icons/md';
 
 
 export default function Home() {
@@ -88,7 +87,6 @@ export default function Home() {
               </div>
 
               <div className='w-1/2 lg:w-1/3 p-5 bg-light-grey rounded-2xl flex flex-col justify-between items-start'>
-              <MdOutlineStar className="text-[50px]" />
                 <div className="py-5" />
                 <p className="font-extrabold text-xl md:text-[25px] lg:text-25px leading-8">Reliable and Accessible Services</p>
               </div>   
@@ -108,7 +106,6 @@ export default function Home() {
 
             <div className="flex gap-2.5 lg:w-2/5 pt-8 lg:pt-0">
               <div className='w-1/2  p-5 bg-light-green rounded-2xl flex flex-col justify-between items-start'>
-                <MdOutlineAlarm className="text-[50px]" />
                 <div className="py-5" />
                 <p className="font-extrabold text-xl md:text-[25px] lg:text-25px leading-8">Caregivers Available Round the Clock</p>
               </div>
