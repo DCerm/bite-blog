@@ -53,7 +53,6 @@ export default function Home() {
 
               <div className="flex flex-col lg:flex-row gap-12 pt-12">
                 <div className="lg:w-1/2 flex flex-col items-start">
-                  <Tag className="rounded-xl " text={ <FaUserNurse className="text-30px" /> } />
                   <h4 className="capitalize text-xl font-semibold pt-5">Comprehensive Range of Services</h4>
                   <p className="text-xl lg:text-lg pt-2.5">We offer a wide array of services including skilled nursing, medication management, companionship and personal 
                     care.
@@ -61,7 +60,6 @@ export default function Home() {
                 </div>
 
                 <div className="lg:w-1/2 flex flex-col items-start">
-                  <Tag className="rounded-xl " text={ <FaHeart className="text-25px" /> } />
                   <h4 className="capitalize text-xl font-semibold pt-5">Compassionate Care Like Family</h4>
                   <p className="text-black text-xl lg:text-lg pt-2.5">We provide care rooted in kindness, empathy, and respect; just like family</p>
                 </div>
